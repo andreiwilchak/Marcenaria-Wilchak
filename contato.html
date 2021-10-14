@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" href="Contato.css">
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre&family=Stick+No+Bills:wght@500&display=swap" rel="stylesheet">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@300&display=swap" rel="stylesheet">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@1,300&display=swap" rel="stylesheet">
+
+		<title>Contato - Marcenaria Wilchak</title>
+
+	</head>
+
+	<body>
+
+		<header>
+
+			<div class="caixa">
+
+				<img class="logo" src="logo.png">
+
+				<h1 class="nome">MARCENARIA WILCHAK</h1>
+				<h3 class="moveis">Móveis_Planejados</h3>
+
+			</div>
+
+		</header>
+		<div class="conteudo">
+			<p class="atençao">ATENÇÃO - só fazemos orçamentos para lugares de Curitiba e região metropolitana. </p>
+			<br>
+			<p class="atençao">Se você quer fazer um orçamento conosco siga as instruções abaixo.</p>
+
+			<table class="table">
+
+				<thead class="thead">
+
+					<tr>
+						<th>Dia</th>
+						<th>Horário</th>
+					</tr>
+
+				</thead>
+
+				<tbody class="tbory">
+
+					<tr>
+						<td>Segunda a Sexta</td>
+						<td>9:00 as 18:00</td>
+					</tr>
+
+					<tr>
+						<td>Sabado</td>
+						<td>9:00 as 13:00</td>
+					</tr>
+
+					<tr>
+						<td>Domingo</td>
+						<td>Não atendemos</td>
+					</tr>
+
+				</tbody>
+
+			</table>
+
+			<main>
+				<form>
+
+					<fieldset>
+
+						<label for="nomeinput">Nome e Sobrenome</label>
+						<input type="text" id="nomeinput" class="inputpadrao" required>
+
+						<label for="email">Email</label>
+						<input type="email" id="email" class="inputpadrao" required placeholder="seuemail@dominio.com">
+
+						<label for="telefone">Telefone</label>
+						<input type="tel" id="telefone" class="inputpadrao" required placeholder="(DDD) 99999-9999"> 
+
+					</fieldset>
+
+					<label for="movel">Quais Móveis?</label>
+					<textarea type="text"  cols="45" rows="6" class="inputpadrao" id="cor" required></textarea>
+
+					<fieldset>
+
+						<legend class="contato">como podemos entrar em contato?</legend>
+
+						<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email" c>Email</label>
+
+						<label for="radio-whatsapp"><input type="radio" name="contato" value="email" id="radio-whatsapp" checked>WhatsApp</label>
+
+					</fieldset>
+
+					<fieldset>
+					
+						<legend class="contato">Gostou do nosso site?</legend>
+
+						<label for="radio-sim"> <input type="radio" name="ok" value="email" id="radio-sim" checked>sim</label>
+				
+						<label for="radio-não"> <input type="radio" name="ok" value="email" id="radio-não" >não</label>
+
+					</fieldset>
+
+					<label><input type="checkbox" class="gostou" >Gostaria de receber um projeto dos seus móveis? + 100,00 R$</label>
+
+					<fieldset>
+
+						<legend class="contato">Qual o tempo que o cliente preferia para entregarmos os móveis?</legend>
+
+						<select class="tempo">
+							<option>2 semanas</option>
+							<option>1 mês</option>
+							<option>2 mêses</option>
+						</select>
+
+					</fieldset>
+
+					<legend class="contato">Qual seu CEP?</legend>
+
+					<input type="nunber" class="cep" id="cor" required placeholder="88888-000">
+
+					<input type="submit" value="Enviar Formulário" class="enviar" required>
+
+				</form>
+
+			</main>
+
+		</div>
+
+		<footer>
+
+			<div class="roda">
+
+				<img class="logoroda" src="logo.png">
+
+				<p class="copy">&copy; Coopyright MARCENARIA WILCHAK-04/10/2021</p>
+
+			</div>
+			
+		</footer>
+
+	</body>
+
+</html>

@@ -1,0 +1,64 @@
+body {
+	background: #1d1d1d;
+}
+
+header {
+	background: black;
+}
+
+.caixa {
+	width: 940px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.logo {
+	margin-top: 10px ;
+	margin-bottom: 10px ;
+	height: 200px
+}
+
+.nome {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 79px;
+	color: white;
+	font-size: 70px;
+	font-family: 'Stick No Bills', sans-serif;
+}
+
+.moveis {
+	font-size: 25px;
+	color: white;
+	font-family: 'Gemunu Libre', sans-serif;
+	left: 740px;
+	bottom: 60px;
+	position: absolute;
+}
+
+footer {
+	background: #000;
+	position: relative;
+}
+
+.roda {
+	width: 940px;
+	margin: 0 auto;
+
+}
+
+.logoroda {
+	margin: 16px 0;
+	width: 200px;
+
+}
+
+.copy { position: absolute;
+	margin-top: 100px;
+	margin-left: 30px;
+	display: inline-block;
+	color: white;
+	font-size: 45px;
+	font-family: 'Karla', sans-serif;
+	text-align: center;
+}

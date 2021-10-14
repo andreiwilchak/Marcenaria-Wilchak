@@ -1,0 +1,24 @@
+
+.body {
+	margin-top: 40px;
+	width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.texto {
+	background: black;
+	font-size: 22px;
+	color: white;
+	width: 880px;
+	margin: 0 auto;
+	padding: 30px 30px;
+	font-family: 'Karla', sans-serif;
+}
+.fotomovel {
+	padding: 10px 30px;
+	display: block;
+	width: 880px;
+	margin: 0 auto;
+	background: black;
+}
