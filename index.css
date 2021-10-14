@@ -4,7 +4,6 @@
 }
 
 li a {
-
 	border-radius: 3px;
 	width: 98px;
 	display: block;
@@ -16,16 +15,6 @@ li a {
 	color: white;
 	text-transform: uppercase; 
 	text-decoration: none;
-}
-
-.contato.html{
-
-	position: fixed;
-}
-
-.fotos.html{
-	position: fixed;
-
 }
 
 .NossosMoveis {
