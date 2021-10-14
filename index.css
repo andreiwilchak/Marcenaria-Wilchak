@@ -1,3 +1,45 @@
+.links{
+	margin-top: 20px;
+	position: absolute;
+}
+
+li a {
+
+	border-radius: 3px;
+	width: 98px;
+	display: block;
+	padding: 10px;
+	background: black;
+	margin: 20px 20px;
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+	text-transform: uppercase; 
+	text-decoration: none;
+}
+
+.contato.html{
+
+	position: fixed;
+}
+
+.fotos.html{
+	position: fixed;
+
+}
+
+.NossosMoveis {
+	font-family: 'Karla', sans-serif;
+	color: white;
+	font-size: 60px;
+	margin: 40px auto;
+	background: black;
+	border-radius: 15px;
+	padding: 15px;
+	text-align: center;
+	width: 600px;
+}
+
 
 .body {
 	margin-top: 40px;
@@ -6,19 +48,17 @@
 	margin-right: auto;
 }
 
+
 .texto {
+	margin-top: 0px auto;
 	background: black;
 	font-size: 22px;
 	color: white;
 	width: 880px;
-	margin: 0 auto;
 	padding: 30px 30px;
 	font-family: 'Karla', sans-serif;
 }
-.fotomovel {
-	padding: 10px 30px;
-	display: block;
-	width: 880px;
-	margin: 0 auto;
-	background: black;
+
+img .texto {
+		margin-top: 10px auto;
 }
