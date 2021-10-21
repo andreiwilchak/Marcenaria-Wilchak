@@ -1,3 +1,28 @@
+.links{
+	margin-top: 20px;
+	position: absolute;
+}
+
+li a {
+	text-align: center;
+	border-radius: 3px;
+	display: block;
+	padding: 30px 50px;
+	background: #525252;
+	margin: 20px 20px;
+	font-weight: bold;
+	font-size: 25px;
+	color: white;
+	text-transform: uppercase; 
+	text-decoration: none;
+
+}
+
+li a:hover {
+	background: #696969;
+	transform: scale(0.9);
+}
+
 .conteudo {
 	margin-top: 40px;
 }
@@ -11,14 +36,22 @@
 }
 
 .table {
+	height: 120px;
+	width: 400px;
+	margin: 80px auto;
 	padding-top: 30px;
 	font-size: 25px;
 	font-family: 'Karla', sans-serif;
 	background: white;
 }
 
-th{
-	border: 1px solid #000;
+tbody {
+	background: black;
+	color: white;
+}
+
+.td , .th{
+	border:1px solid #ffffff;
 }
 
 main {
