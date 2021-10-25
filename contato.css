@@ -88,11 +88,7 @@ label {
  	display: block;
  	cursor: pointer;
  }
- select {
- 	font-size: 30px;
- }
-
- option {
+ select, option {
  	font-size: 30px;
  }
 
