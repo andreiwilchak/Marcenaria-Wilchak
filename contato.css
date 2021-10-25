@@ -35,6 +35,9 @@ main {
 	width: 940px;
 	margin: 80px auto;
 }
+form {
+	margin-left: 20px;
+}
 
 input {
 	font-size: 25px;
@@ -84,6 +87,9 @@ label {
  	margin: 20px;
  	display: block;
  	cursor: pointer;
+ }
+ select {
+ 	font-size: 30px;
  }
 
  option {
