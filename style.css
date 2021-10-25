@@ -37,7 +37,6 @@ header {
 }
 
 .links{
-	margin-top: 20px;
 	position: absolute;
 }
 
@@ -63,7 +62,6 @@ li a:hover {
 
 footer {
 	background: #000;
-	position: relative;
 }
 
 .roda {
@@ -78,7 +76,8 @@ footer {
 
 }
 
-.copy { position: absolute;
+.copy { 
+
 	margin-top: 100px;
 	margin-left: 30px;
 	display: inline-block;
