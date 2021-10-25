@@ -1,13 +1,13 @@
-.NossosMoveis {
+.titulos {
 	font-family: 'Karla', sans-serif;
 	color: white;
-	font-size: 60px;
+	font-size: 50px;
 	margin: 60px auto;
 	background: black;
 	border-radius: 15px;
 	padding: 15px;
 	text-align: center;
-	width: 600px;
+	width: 550px;
 }
 
 .body {
@@ -21,6 +21,7 @@
 	padding: 20px 30px;
 	margin: 20px auto;
 	border: 7px black solid;
+	box-shadow: 15px 15px 20px #000000;
 }
  
  .beneficios li {
@@ -47,6 +48,7 @@
 	width: 860px;
 	padding: 30px 30px;
 	font-family: 'Karla', sans-serif;
+	box-shadow: 15px 15px 20px #000000;
 } 
 
 img .texto {
