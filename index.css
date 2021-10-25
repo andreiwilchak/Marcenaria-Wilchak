@@ -15,16 +15,12 @@
 	width: 920px;
 }
 
-.beneficios-todo{
-	margin: 20px auto;
-	border: 7px black solid;
-}
-
 .beneficios-tudo {
-	background-image: 100%;
 	background-image: url('marcenaria-ferramentas.jpg');
 	background-repeat: no-repeat;
 	padding: 20px 30px;
+	margin: 20px auto;
+	border: 7px black solid;
 }
  
  .beneficios li {

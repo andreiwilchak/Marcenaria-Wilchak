@@ -6,18 +6,6 @@ header {
 	background: black;
 }
 
-h2 {
-	font-family: 'Karla', sans-serif;
-	color: white;
-	font-size: 60px;
-	margin: 60px auto;
-	background: black;
-	border-radius: 15px;
-	padding: 15px;
-	text-align: center;
-	width: 600px;
-}
-
 .caixa {
 	width: 940px;
 	margin: 0 auto;
@@ -46,6 +34,18 @@ h2 {
 	left: 740px;
 	bottom: 60px;
 	position: absolute;
+}
+
+h2 {
+	font-family: 'Karla', sans-serif;
+	color: white;
+	font-size: 50px;
+	margin: 60px auto;
+	background: black;
+	border-radius: 15px;
+	padding: 15px;
+	text-align: center;
+	width: 600px;
 }
 
 .links{
