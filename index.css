@@ -11,12 +11,37 @@
 }
 
 .body {
-	margin-top: 40px;
-	width: 940px;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 40px auto;
+	width: 920px;
 }
 
+.beneficios-todo{
+	margin: 20px auto;
+	border: 7px black solid;
+}
+
+.beneficios-tudo {
+	background-image: 100%;
+	background-image: url('marcenaria-ferramentas.jpg');
+	background-repeat: no-repeat;
+	padding: 20px 30px;
+}
+ 
+ .beneficios li {
+	font-family: 'Karla', sans-serif;
+	color: black;
+	font-size: 30px;
+	margin-bottom: 6px;
+	font-weight: bold;
+}
+
+.bene {
+	font-weight: bold;
+	color: black;
+	text-align: center;
+	font-size: 60px;
+	font-family: 'Karla', sans-serif;
+}
 
 .texto {
 	margin-top: 0px auto;
@@ -26,8 +51,9 @@
 	width: 860px;
 	padding: 30px 30px;
 	font-family: 'Karla', sans-serif;
-}
+} 
 
 img .texto {
-		margin-top: 10px auto;
+	margin-top: 10px auto;
 }
+
