@@ -18,10 +18,10 @@
 .beneficios-tudo {
 	background-image: url('marcenaria-ferramentas.jpg');
 	background-repeat: no-repeat;
-	padding: 20px 30px;
+	padding: 20px 40px;
 	margin: 20px auto;
 	border: 7px black solid;
-	box-shadow: 15px 15px 20px #000000;
+	box-shadow: 15px 15px 20px black;
 }
  
  .beneficios li {
@@ -40,6 +40,10 @@
 	font-family: 'Karla', sans-serif;
 }
 
+.imagem-principal{
+	width: 860px;
+}
+
 .texto {
 	margin-top: 0px auto;
 	background: black;
@@ -48,10 +52,7 @@
 	width: 860px;
 	padding: 30px 30px;
 	font-family: 'Karla', sans-serif;
-	box-shadow: 15px 15px 20px #000000;
+	box-shadow: 15px 15px 20px black;
 } 
 
-img .texto {
-	margin-top: 10px auto;
-}
 

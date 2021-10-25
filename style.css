@@ -13,27 +13,18 @@ header {
 }
 
 .logo {
-	margin-top: 10px ;
-	margin-bottom: 10px ;
+	margin: 15px 0px 0px 54px;
 	height: 200px
 }
 
 .nome {
+	text-align: center;
 	display: inline-block;
 	vertical-align: top;
-	margin-top: 79px;
+	margin: 93px 0px 40px 0px;
 	color: white;
-	font-size: 70px;
+	font-size: 60px;
 	font-family: 'Stick No Bills', sans-serif;
-}
-
-.moveis {
-	font-size: 25px;
-	color: white;
-	font-family: 'Gemunu Libre', sans-serif;
-	left: 740px;
-	bottom: 60px;
-	position: absolute;
 }
 
 .links{
@@ -61,7 +52,7 @@ li a:hover {
 }
 
 iframe {
-	box-shadow: 15px 15px 20px #000000;
+	box-shadow: 15px 15px 20px black;
 }
 
 footer {
@@ -69,24 +60,29 @@ footer {
 }
 
 .roda {
-	width: 940px;
+	width: 500px;
 	margin: 0 auto;
 
 }
 
 .logoroda {
-	margin: 16px 0;
+	margin: 0px 0px 0px 10px;
 	width: 200px;
-
 }
 
 .copy { 
 	position: absolute;
 	margin-top: 100px;
-	margin-left: 30px;
+	margin-left: 10px;
 	display: inline-block;
 	color: white;
-	font-size: 45px;
+	font-size: 15px;
 	font-family: 'Karla', sans-serif;
 	text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+	.caixa , .body , .texto , .moveis , iframe , .titulos , .imagem-principal , .roda{
+		width: auto;
+	}
 }
