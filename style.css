@@ -1,5 +1,5 @@
 body {
-	background: #1d1d1d;
+	background: #6c6c6c;
 }
 
 header {
@@ -75,6 +75,24 @@ footer {
 	font-size: 15px;
 	font-family: 'Karla', sans-serif;
 	text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+	.body , .texto , .moveis , iframe , .titulos , .imagem-principal , .roda{
+		width: auto;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.logo{
+		width: 0px auto;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.caixa , .body , .texto , .moveis , iframe , .titulos , .imagem-principal , .roda{
+		width: auto;
+	}
 }
 
 @media screen and (max-width: 480px) {
