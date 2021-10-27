@@ -80,9 +80,14 @@ footer {
 	text-align: center;
 }
 
-@media screen and (max-width: 480px) {
-	.body , .texto , .moveis , .titulos , .imagem-principal , .roda , .caixa{
+@media screen and (max-width: 920px) {
+	.body , .texto , .moveis , .imagem-principal , .roda {
 		width: auto;
+	}
+
+	.caixa{
+		margin: : 0 auto;
+		width: 290px;
 	}
 
 	.logoroda{
@@ -92,25 +97,29 @@ footer {
 
 	.copy{
 		margin: 60px 0px;
+		font-size: 20px;
 	}
 
 	.logo {
 		margin: 0px;
+		width: 130px;
+		height: 130px;
 	}
 
 	.nome{
-		font-size: 45px;
-		margin: 0px;
+		font-size: 30px;
+		margin: 40px 0px;
+		position: absolute;
 	}
 
 	iframe{
-		margin: 0px 10px;
-		width: 92%;
+		width: 0 auto;
 	}
 
 	.titulos{
-		margin: 20px 10px 20px 10px;
+		margin: 0px auto;
 		font-size: 25px;
+		width: 230px;
 	}
 
 	.links {
@@ -121,6 +130,8 @@ footer {
 		font-size: 40px;
 		margin-bottom: 8px;
 	}
+
+
 }
 
 
