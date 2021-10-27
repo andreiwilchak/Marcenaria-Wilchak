@@ -81,12 +81,13 @@ footer {
 }
 
 @media screen and (max-width: 920px) {
-	.body , .texto , .moveis , .imagem-principal , .roda {
+	/*index*/
+	.body , .texto , .moveis , .roda {
 		width: auto;
 	}
 
 	.caixa{
-		margin: : 0 auto;
+		margin: 0 auto;
 		width: 290px;
 	}
 
@@ -130,6 +131,10 @@ footer {
 		font-size: 40px;
 		margin-bottom: 8px;
 	}
+
+	/*contato*/
+
+
 
 
 }
