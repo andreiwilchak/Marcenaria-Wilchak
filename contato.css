@@ -95,16 +95,3 @@ label {
  .cep {
  	display: block;
  }
-
- @media screen and (max-width: 920px) {
-	.body {
-		width: auto;
-	}
-
-	.table {
-		width: 90%;
-	}
-
-	.atenção{
-		width: 90%;
-	}
