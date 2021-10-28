@@ -30,6 +30,18 @@ header {
 	font-family: 'Stick No Bills', sans-serif;
 }
 
+.titulos {
+	font-family: 'Karla', sans-serif;
+	color: white;
+	font-size: 50px;
+	margin: 60px auto;
+	background: black;
+	border-radius: 15px;
+	padding: 15px;
+	text-align: center;
+	width: 550px;
+}
+
 .links{
 	position: absolute;
 }
@@ -131,6 +143,42 @@ footer {
 		font-size: 40px;
 		margin-bottom: 8px;
 	}
+
+/*contato*/
+
+	.atençao , .table , main{
+		width: auto;
+	}
+
+	.atençao{
+		font-size: 20px;
+	}
+
+	.inputpadrao{
+		width: auto;
+		padding: 5px;
+	}
+
+	input{
+		font-size: 15px;
+	}
+
+	select{
+		font-size: 15px;
+	}
+
+/*fotos*/
+
+	.fotomovel{
+		width: 97.8%;
+		padding: 5px;
+	}
+
+	.todos{
+		margin: 0px 5%;
+		width: auto;
+	}
+}
 
 
 

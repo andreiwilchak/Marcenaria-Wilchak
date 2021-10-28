@@ -1,15 +1,3 @@
-.titulos {
-	font-family: 'Karla', sans-serif;
-	color: white;
-	font-size: 50px;
-	margin: 60px auto;
-	background: black;
-	border-radius: 15px;
-	padding: 15px;
-	text-align: center;
-	width: 550px;
-}
-
 .body {
 	margin: 40px auto;
 	width: 920px;
