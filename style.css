@@ -54,7 +54,7 @@ li a {
 	border-radius: 3px;
 	display: block;
 	padding: 30px 50px;
-	background: #525252;
+	background: #3d3d3d;
 	margin: 20px 20px;
 	font-weight: bold;
 	font-size: 25px;
@@ -65,7 +65,7 @@ li a {
 }
 
 li a:hover {
-	background: #696969;
+	background: #4d4d4d;
 	transform: scale(0.9);
 }
 
