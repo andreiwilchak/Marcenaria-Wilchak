@@ -149,13 +149,22 @@ footer {
 /*padão*/
 /*index*/
 
-	.texto , .moveis {
+	.texto {
+		width: auto;
+		margin: 0px 20px;
+	}
+	.moveis{
 		width: auto;
 	}
 
 	.bene{
 		font-size: 40px;
-		margin-bottom: 8px;
+		margin-bottom: 13px;
+	}
+
+	.beneficios-tudo{
+		width: auto;
+		margin: 0px 20px;
 	}
 /*index*/
 /*contato*/
