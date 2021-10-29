@@ -1,5 +1,7 @@
+	/*css padão*/
+
 body {
-	background: #6c6c6c;
+	background: #1D1D1D
 }
 
 html{
@@ -92,9 +94,13 @@ footer {
 	text-align: center;
 }
 
+	/*css padão*/
+
 @media screen and (max-width: 920px) {
-	/*index*/
-	.body , .texto , .moveis , .roda {
+
+/*padão*/
+
+	.body, .roda {
 		width: auto;
 	}
 
@@ -139,11 +145,18 @@ footer {
 		position: static;
 	}
 
+/*padão*/
+/*index*/
+
+	.texto , .moveis {
+		width: auto;
+	}
+
 	.bene{
 		font-size: 40px;
 		margin-bottom: 8px;
 	}
-
+/*index*/
 /*contato*/
 
 	.atençao , .table , main{
@@ -172,6 +185,7 @@ footer {
 		padding: 20px;
 	}
 
+/*contato*/
 /*fotos*/
 
 	.fotomovel{
@@ -185,6 +199,7 @@ footer {
 	}
 }
 
+/*fotos*/
 
 
 
